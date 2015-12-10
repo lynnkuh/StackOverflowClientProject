@@ -22,6 +22,7 @@
 		1A3236DF1C162A690039550B /* StackOverflowClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */; };
 		1AD3EAE61C17934A00B5186E /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3EAE51C17934A00B5186E /* Error.m */; };
 		1AF5D3591C1919130066D217 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3581C1919130066D217 /* User.m */; };
+		1AF5D35C1C1919C30066D217 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D35B1C1919C30066D217 /* Question.m */; };
 		66EE356319ED2C45A751285E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01610896A4743B73A7FCA06C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,8 @@
 		1AD3EAE51C17934A00B5186E /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
 		1AF5D3571C1919130066D217 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		1AF5D3581C1919130066D217 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		1AF5D35A1C1919C30066D217 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		1AF5D35B1C1919C30066D217 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		34064BF6DEC8A56C13C5AA80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		51D13D49FBD332A7C728E919 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +206,8 @@
 			children = (
 				1AF5D3571C1919130066D217 /* User.h */,
 				1AF5D3581C1919130066D217 /* User.m */,
+				1AF5D35A1C1919C30066D217 /* Question.h */,
+				1AF5D35B1C1919C30066D217 /* Question.m */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 				1A3236BE1C162A690039550B /* AppDelegate.m in Sources */,
 				1A101C961C16516400CE741D /* MyQuestionsViewController.m in Sources */,
 				1A3236BB1C162A690039550B /* main.m in Sources */,
+				1AF5D35C1C1919C30066D217 /* Question.m in Sources */,
 				1A101C991C1658E400CE741D /* MenuTableViewController.m in Sources */,
 				1A101CA41C1668EB00CE741D /* MenuContainerViewController.m in Sources */,
 			);
