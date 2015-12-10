@@ -82,6 +82,7 @@
 		1ACB4E7B1C1A1B39009DB4FA /* SOSearchJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchJSONParser.m; sourceTree = "<group>"; };
 		1ACB4E7D1C1A1D37009DB4FA /* SOSearchAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchAPIService.h; sourceTree = "<group>"; };
 		1ACB4E7E1C1A1D37009DB4FA /* SOSearchAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchAPIService.m; sourceTree = "<group>"; };
+		1ACB4E801C1A2013009DB4FA /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1AD3EAE41C17930D00B5186E /* Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		1AD3EAE51C17934A00B5186E /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
 		1AF5D3571C1919130066D217 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				1A3236BC1C162A690039550B /* AppDelegate.h */,
+				1ACB4E801C1A2013009DB4FA /* Constants.h */,
 				1A3236BD1C162A690039550B /* AppDelegate.m */,
 				1AF5D36E1C1925EA0066D217 /* burgerxib.jpeg */,
 				1A3236BA1C162A690039550B /* main.m */,

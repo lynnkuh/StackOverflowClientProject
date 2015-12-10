@@ -11,8 +11,6 @@
 #import "Constants.h"
 
 @interface ImageFetcherService : NSObject
-
-@interface ImageFetcherService : NSObject
 +(void)fetchImageInBackgroundFromUrl:(NSURL * _Nonnull)url completionHandler:(kNSImageCompletionHandler)completionHandler;
 
 @end
