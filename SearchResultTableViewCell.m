@@ -9,6 +9,9 @@
 #import "SearchResultTableViewCell.h"
 #import "ImageFetcherService.h"
 
+
+
+
 @implementation SearchResultTableViewCell
 
 -(void)setQuestion:(Question *)question {
