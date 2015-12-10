@@ -26,6 +26,7 @@
 		1AF5D3611C191DC80066D217 /* CFSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3601C191DC80066D217 /* CFSettings.m */; };
 		1AF5D3641C191EA50066D217 /* SOSearchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3631C191EA50066D217 /* SOSearchSettings.m */; };
 		1AF5D3671C1921EC0066D217 /* JSONAPIRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3661C1921EC0066D217 /* JSONAPIRequestService.m */; };
+		1AF5D36A1C1924480066D217 /* ImageFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3691C1924480066D217 /* ImageFetcherService.m */; };
 		66EE356319ED2C45A751285E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01610896A4743B73A7FCA06C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,8 @@
 		1AF5D3631C191EA50066D217 /* SOSearchSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchSettings.m; sourceTree = "<group>"; };
 		1AF5D3651C1921EC0066D217 /* JSONAPIRequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPIRequestService.h; sourceTree = "<group>"; };
 		1AF5D3661C1921EC0066D217 /* JSONAPIRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPIRequestService.m; sourceTree = "<group>"; };
+		1AF5D3681C1924480066D217 /* ImageFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFetcherService.h; sourceTree = "<group>"; };
+		1AF5D3691C1924480066D217 /* ImageFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFetcherService.m; sourceTree = "<group>"; };
 		34064BF6DEC8A56C13C5AA80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		51D13D49FBD332A7C728E919 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -239,6 +242,8 @@
 			children = (
 				1AF5D3651C1921EC0066D217 /* JSONAPIRequestService.h */,
 				1AF5D3661C1921EC0066D217 /* JSONAPIRequestService.m */,
+				1AF5D3681C1924480066D217 /* ImageFetcherService.h */,
+				1AF5D3691C1924480066D217 /* ImageFetcherService.m */,
 			);
 			name = RequestServices;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 				1AF5D3611C191DC80066D217 /* CFSettings.m in Sources */,
 				1AD3EAE61C17934A00B5186E /* Error.m in Sources */,
 				1A101C9F1C1659E600CE741D /* MainContentViewController.m in Sources */,
+				1AF5D36A1C1924480066D217 /* ImageFetcherService.m in Sources */,
 				1A3236C11C162A690039550B /* ViewController.m in Sources */,
 				1A101C9C1C1659B800CE741D /* OAuthWebViewController.m in Sources */,
 				1AF5D3671C1921EC0066D217 /* JSONAPIRequestService.m in Sources */,
