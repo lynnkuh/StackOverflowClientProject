@@ -21,6 +21,7 @@
 		1A3236D41C162A690039550B /* StackOverflowClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236D31C162A690039550B /* StackOverflowClientTests.m */; };
 		1A3236DF1C162A690039550B /* StackOverflowClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */; };
 		1ACB4E7C1C1A1B39009DB4FA /* SOSearchJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E7B1C1A1B39009DB4FA /* SOSearchJSONParser.m */; };
+		1ACB4E7F1C1A1D37009DB4FA /* SOSearchAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E7E1C1A1D37009DB4FA /* SOSearchAPIService.m */; };
 		1AD3EAE61C17934A00B5186E /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3EAE51C17934A00B5186E /* Error.m */; };
 		1AF5D3591C1919130066D217 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3581C1919130066D217 /* User.m */; };
 		1AF5D35C1C1919C30066D217 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D35B1C1919C30066D217 /* Question.m */; };
@@ -79,6 +80,8 @@
 		1A3236E01C162A690039550B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ACB4E7A1C1A1B39009DB4FA /* SOSearchJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchJSONParser.h; sourceTree = "<group>"; };
 		1ACB4E7B1C1A1B39009DB4FA /* SOSearchJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchJSONParser.m; sourceTree = "<group>"; };
+		1ACB4E7D1C1A1D37009DB4FA /* SOSearchAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchAPIService.h; sourceTree = "<group>"; };
+		1ACB4E7E1C1A1D37009DB4FA /* SOSearchAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchAPIService.m; sourceTree = "<group>"; };
 		1AD3EAE41C17930D00B5186E /* Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		1AD3EAE51C17934A00B5186E /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
 		1AF5D3571C1919130066D217 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -256,6 +259,8 @@
 		1AF5D36C1C1925310066D217 /* Web Request */ = {
 			isa = PBXGroup;
 			children = (
+				1ACB4E7D1C1A1D37009DB4FA /* SOSearchAPIService.h */,
+				1ACB4E7E1C1A1D37009DB4FA /* SOSearchAPIService.m */,
 			);
 			name = "Web Request";
 			sourceTree = "<group>";
@@ -487,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACB4E7F1C1A1D37009DB4FA /* SOSearchAPIService.m in Sources */,
 				1AF5D3591C1919130066D217 /* User.m in Sources */,
 				1AF5D3611C191DC80066D217 /* CFSettings.m in Sources */,
 				1AD3EAE61C17934A00B5186E /* Error.m in Sources */,
