@@ -20,6 +20,7 @@
 		1A3236C91C162A690039550B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3236C71C162A690039550B /* LaunchScreen.storyboard */; };
 		1A3236D41C162A690039550B /* StackOverflowClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236D31C162A690039550B /* StackOverflowClientTests.m */; };
 		1A3236DF1C162A690039550B /* StackOverflowClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */; };
+		1ACB4E7C1C1A1B39009DB4FA /* SOSearchJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E7B1C1A1B39009DB4FA /* SOSearchJSONParser.m */; };
 		1AD3EAE61C17934A00B5186E /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3EAE51C17934A00B5186E /* Error.m */; };
 		1AF5D3591C1919130066D217 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3581C1919130066D217 /* User.m */; };
 		1AF5D35C1C1919C30066D217 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D35B1C1919C30066D217 /* Question.m */; };
@@ -76,6 +77,8 @@
 		1A3236DA1C162A690039550B /* StackOverflowClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflowClientUITests.m; sourceTree = "<group>"; };
 		1A3236E01C162A690039550B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACB4E7A1C1A1B39009DB4FA /* SOSearchJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchJSONParser.h; sourceTree = "<group>"; };
+		1ACB4E7B1C1A1B39009DB4FA /* SOSearchJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchJSONParser.m; sourceTree = "<group>"; };
 		1AD3EAE41C17930D00B5186E /* Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		1AD3EAE51C17934A00B5186E /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
 		1AF5D3571C1919130066D217 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 		1A3236AD1C162A690039550B = {
 			isa = PBXGroup;
 			children = (
+				1AF5D3701C192A6F0066D217 /* Controllers */,
 				1AF5D36B1C1925290066D217 /* SO API */,
 				1A3236B81C162A690039550B /* StackOverflowClient */,
 				1A3236D21C162A690039550B /* StackOverflowClientTests */,
@@ -149,11 +153,9 @@
 			children = (
 				1AF5D3551C1918DF0066D217 /* Model */,
 				1AF5D3541C1916AD0066D217 /* View */,
-				1A3236C21C162A690039550B /* Main.storyboard */,
 				1AD3EAE41C17930D00B5186E /* Error.h */,
 				1AD3EAE51C17934A00B5186E /* Error.m */,
 				1A3236C51C162A690039550B /* Assets.xcassets */,
-				1A3236C71C162A690039550B /* LaunchScreen.storyboard */,
 				1A3236CA1C162A690039550B /* Info.plist */,
 				1A3236B91C162A690039550B /* Supporting Files */,
 			);
@@ -192,18 +194,8 @@
 		1AF5D3541C1916AD0066D217 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1A101C971C1658E400CE741D /* MenuTableViewController.h */,
-				1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */,
-				1A101C941C16516400CE741D /* MyQuestionsViewController.h */,
-				1A101C951C16516400CE741D /* MyQuestionsViewController.m */,
-				1A3236BF1C162A690039550B /* ViewController.h */,
-				1A3236C01C162A690039550B /* ViewController.m */,
-				1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */,
-				1A101C981C1658E400CE741D /* MenuTableViewController.m */,
-				1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */,
-				1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */,
-				1A101C9D1C1659E600CE741D /* MainContentViewController.h */,
-				1A101C9E1C1659E600CE741D /* MainContentViewController.m */,
+				1A3236C71C162A690039550B /* LaunchScreen.storyboard */,
+				1A3236C21C162A690039550B /* Main.storyboard */,
 			);
 			name = View;
 			path = ..;
@@ -271,8 +263,29 @@
 		1AF5D36D1C19253E0066D217 /* JSON Parsers */ = {
 			isa = PBXGroup;
 			children = (
+				1ACB4E7A1C1A1B39009DB4FA /* SOSearchJSONParser.h */,
+				1ACB4E7B1C1A1B39009DB4FA /* SOSearchJSONParser.m */,
 			);
 			name = "JSON Parsers";
+			sourceTree = "<group>";
+		};
+		1AF5D3701C192A6F0066D217 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A101C971C1658E400CE741D /* MenuTableViewController.h */,
+				1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */,
+				1A101C941C16516400CE741D /* MyQuestionsViewController.h */,
+				1A101C951C16516400CE741D /* MyQuestionsViewController.m */,
+				1A3236BF1C162A690039550B /* ViewController.h */,
+				1A3236C01C162A690039550B /* ViewController.m */,
+				1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */,
+				1A101C981C1658E400CE741D /* MenuTableViewController.m */,
+				1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */,
+				1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */,
+				1A101C9D1C1659E600CE741D /* MainContentViewController.h */,
+				1A101C9E1C1659E600CE741D /* MainContentViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		8C4E5D18D1EC72E69B2C0A17 /* Pods */ = {
@@ -488,6 +501,7 @@
 				1A3236BB1C162A690039550B /* main.m in Sources */,
 				1AF5D35C1C1919C30066D217 /* Question.m in Sources */,
 				1A101C991C1658E400CE741D /* MenuTableViewController.m in Sources */,
+				1ACB4E7C1C1A1B39009DB4FA /* SOSearchJSONParser.m in Sources */,
 				1A101CA41C1668EB00CE741D /* MenuContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +544,7 @@
 				1A3236C31C162A690039550B /* Base */,
 			);
 			name = Main.storyboard;
+			path = StackOverflowClient;
 			sourceTree = "<group>";
 		};
 		1A3236C71C162A690039550B /* LaunchScreen.storyboard */ = {
@@ -538,6 +553,7 @@
 				1A3236C81C162A690039550B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = StackOverflowClient;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
