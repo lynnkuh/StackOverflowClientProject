@@ -22,6 +22,8 @@
 		1A3236DF1C162A690039550B /* StackOverflowClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */; };
 		1ACB4E861C1A2398009DB4FA /* SOSearchJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E851C1A2398009DB4FA /* SOSearchJSONParser.m */; };
 		1ACB4E891C1A253D009DB4FA /* SOSearchAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E881C1A253D009DB4FA /* SOSearchAPIService.m */; };
+		1ACB4E8D1C1A30E8009DB4FA /* SearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E8B1C1A30E8009DB4FA /* SearchResultTableViewCell.m */; };
+		1ACB4E8E1C1A30E8009DB4FA /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB4E8C1C1A30E8009DB4FA /* SearchResultTableViewCell.xib */; };
 		1AD3EAE61C17934A00B5186E /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3EAE51C17934A00B5186E /* Error.m */; };
 		1AF5D3591C1919130066D217 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3581C1919130066D217 /* User.m */; };
 		1AF5D35C1C1919C30066D217 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D35B1C1919C30066D217 /* Question.m */; };
@@ -83,6 +85,9 @@
 		1ACB4E851C1A2398009DB4FA /* SOSearchJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchJSONParser.m; sourceTree = "<group>"; };
 		1ACB4E871C1A253D009DB4FA /* SOSearchAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchAPIService.h; sourceTree = "<group>"; };
 		1ACB4E881C1A253D009DB4FA /* SOSearchAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchAPIService.m; sourceTree = "<group>"; };
+		1ACB4E8A1C1A30E8009DB4FA /* SearchResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewCell.h; sourceTree = "<group>"; };
+		1ACB4E8B1C1A30E8009DB4FA /* SearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewCell.m; sourceTree = "<group>"; };
+		1ACB4E8C1C1A30E8009DB4FA /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
 		1AD3EAE41C17930D00B5186E /* Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		1AD3EAE51C17934A00B5186E /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
 		1AF5D3571C1919130066D217 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -291,6 +296,9 @@
 				1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */,
 				1A101C9D1C1659E600CE741D /* MainContentViewController.h */,
 				1A101C9E1C1659E600CE741D /* MainContentViewController.m */,
+				1ACB4E8A1C1A30E8009DB4FA /* SearchResultTableViewCell.h */,
+				1ACB4E8B1C1A30E8009DB4FA /* SearchResultTableViewCell.m */,
+				1ACB4E8C1C1A30E8009DB4FA /* SearchResultTableViewCell.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -419,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF5D36F1C1925EA0066D217 /* burgerxib.jpeg in Resources */,
+				1ACB4E8E1C1A30E8009DB4FA /* SearchResultTableViewCell.xib in Resources */,
 				1A3236C91C162A690039550B /* LaunchScreen.storyboard in Resources */,
 				1A3236C61C162A690039550B /* Assets.xcassets in Resources */,
 				1A3236C41C162A690039550B /* Main.storyboard in Resources */,
@@ -500,6 +509,7 @@
 				1AD3EAE61C17934A00B5186E /* Error.m in Sources */,
 				1A101C9F1C1659E600CE741D /* MainContentViewController.m in Sources */,
 				1AF5D36A1C1924480066D217 /* ImageFetcherService.m in Sources */,
+				1ACB4E8D1C1A30E8009DB4FA /* SearchResultTableViewCell.m in Sources */,
 				1A3236C11C162A690039550B /* ViewController.m in Sources */,
 				1A101C9C1C1659B800CE741D /* OAuthWebViewController.m in Sources */,
 				1AF5D3671C1921EC0066D217 /* JSONAPIRequestService.m in Sources */,
