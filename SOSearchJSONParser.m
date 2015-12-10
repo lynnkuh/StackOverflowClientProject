@@ -12,8 +12,7 @@
 #import "User.h"
 #import "Question.h"
 
-
-@implementation SOSearchJSONParser
+@implementation SOSearchJSONParser 
 
 +(void)questionsArrayFromDictionary:(NSDictionary*)dictionary completionHandler:(kNSArrayCompletionHandler)completionHandler {
     NSMutableArray *result = [[NSMutableArray<Question*> alloc] init];
