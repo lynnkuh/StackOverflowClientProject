@@ -21,6 +21,7 @@
 		1A3236D41C162A690039550B /* StackOverflowClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236D31C162A690039550B /* StackOverflowClientTests.m */; };
 		1A3236DF1C162A690039550B /* StackOverflowClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */; };
 		1AD3EAE61C17934A00B5186E /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3EAE51C17934A00B5186E /* Error.m */; };
+		1AF5D3591C1919130066D217 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3581C1919130066D217 /* User.m */; };
 		66EE356319ED2C45A751285E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01610896A4743B73A7FCA06C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,22 +44,22 @@
 
 /* Begin PBXFileReference section */
 		01610896A4743B73A7FCA06C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A101C941C16516400CE741D /* MyQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuestionsViewController.h; sourceTree = "<group>"; };
-		1A101C951C16516400CE741D /* MyQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuestionsViewController.m; sourceTree = "<group>"; };
-		1A101C971C1658E400CE741D /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
-		1A101C981C1658E400CE741D /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		1A101C941C16516400CE741D /* MyQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyQuestionsViewController.h; path = StackOverflowClient/MyQuestionsViewController.h; sourceTree = "<group>"; };
+		1A101C951C16516400CE741D /* MyQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyQuestionsViewController.m; path = StackOverflowClient/MyQuestionsViewController.m; sourceTree = "<group>"; };
+		1A101C971C1658E400CE741D /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = StackOverflowClient/MenuTableViewController.h; sourceTree = "<group>"; };
+		1A101C981C1658E400CE741D /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = StackOverflowClient/MenuTableViewController.m; sourceTree = "<group>"; };
 		1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthWebViewController.h; sourceTree = "<group>"; };
 		1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthWebViewController.m; sourceTree = "<group>"; };
 		1A101C9D1C1659E600CE741D /* MainContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainContentViewController.h; sourceTree = "<group>"; };
 		1A101C9E1C1659E600CE741D /* MainContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainContentViewController.m; sourceTree = "<group>"; };
-		1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuContainerViewController.h; sourceTree = "<group>"; };
-		1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuContainerViewController.m; sourceTree = "<group>"; };
+		1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuContainerViewController.h; path = StackOverflowClient/MenuContainerViewController.h; sourceTree = "<group>"; };
+		1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuContainerViewController.m; path = StackOverflowClient/MenuContainerViewController.m; sourceTree = "<group>"; };
 		1A3236B61C162A690039550B /* StackOverflowClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3236BA1C162A690039550B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A3236BC1C162A690039550B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A3236BD1C162A690039550B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A3236BF1C162A690039550B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A3236C01C162A690039550B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A3236BF1C162A690039550B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = StackOverflowClient/ViewController.h; sourceTree = "<group>"; };
+		1A3236C01C162A690039550B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = StackOverflowClient/ViewController.m; sourceTree = "<group>"; };
 		1A3236C31C162A690039550B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A3236C51C162A690039550B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A3236C81C162A690039550B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +72,8 @@
 		1A3236E01C162A690039550B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD3EAE41C17930D00B5186E /* Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		1AD3EAE51C17934A00B5186E /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
+		1AF5D3571C1919130066D217 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1AF5D3581C1919130066D217 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		34064BF6DEC8A56C13C5AA80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		51D13D49FBD332A7C728E919 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,10 +107,6 @@
 		1A3236AD1C162A690039550B = {
 			isa = PBXGroup;
 			children = (
-				1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */,
-				1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */,
-				1A101C9D1C1659E600CE741D /* MainContentViewController.h */,
-				1A101C9E1C1659E600CE741D /* MainContentViewController.m */,
 				1A3236B81C162A690039550B /* StackOverflowClient */,
 				1A3236D21C162A690039550B /* StackOverflowClientTests */,
 				1A3236DD1C162A690039550B /* StackOverflowClientUITests */,
@@ -130,19 +129,13 @@
 		1A3236B81C162A690039550B /* StackOverflowClient */ = {
 			isa = PBXGroup;
 			children = (
+				1AF5D3551C1918DF0066D217 /* Model */,
+				1AF5D3541C1916AD0066D217 /* View */,
 				1A3236BC1C162A690039550B /* AppDelegate.h */,
 				1A3236BD1C162A690039550B /* AppDelegate.m */,
-				1A3236BF1C162A690039550B /* ViewController.h */,
-				1A3236C01C162A690039550B /* ViewController.m */,
 				1A3236C21C162A690039550B /* Main.storyboard */,
-				1A101C971C1658E400CE741D /* MenuTableViewController.h */,
-				1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */,
-				1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */,
-				1A101C981C1658E400CE741D /* MenuTableViewController.m */,
 				1AD3EAE41C17930D00B5186E /* Error.h */,
 				1AD3EAE51C17934A00B5186E /* Error.m */,
-				1A101C941C16516400CE741D /* MyQuestionsViewController.h */,
-				1A101C951C16516400CE741D /* MyQuestionsViewController.m */,
 				1A3236C51C162A690039550B /* Assets.xcassets */,
 				1A3236C71C162A690039550B /* LaunchScreen.storyboard */,
 				1A3236CA1C162A690039550B /* Info.plist */,
@@ -175,6 +168,43 @@
 				1A3236E01C162A690039550B /* Info.plist */,
 			);
 			path = StackOverflowClientUITests;
+			sourceTree = "<group>";
+		};
+		1AF5D3541C1916AD0066D217 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A101C971C1658E400CE741D /* MenuTableViewController.h */,
+				1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */,
+				1A101C941C16516400CE741D /* MyQuestionsViewController.h */,
+				1A101C951C16516400CE741D /* MyQuestionsViewController.m */,
+				1A3236BF1C162A690039550B /* ViewController.h */,
+				1A3236C01C162A690039550B /* ViewController.m */,
+				1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */,
+				1A101C981C1658E400CE741D /* MenuTableViewController.m */,
+				1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */,
+				1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */,
+				1A101C9D1C1659E600CE741D /* MainContentViewController.h */,
+				1A101C9E1C1659E600CE741D /* MainContentViewController.m */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1AF5D3551C1918DF0066D217 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AF5D3561C1918E70066D217 /* Data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1AF5D3561C1918E70066D217 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1AF5D3571C1919130066D217 /* User.h */,
+				1AF5D3581C1919130066D217 /* User.m */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		8C4E5D18D1EC72E69B2C0A17 /* Pods */ = {
@@ -375,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF5D3591C1919130066D217 /* User.m in Sources */,
 				1AD3EAE61C17934A00B5186E /* Error.m in Sources */,
 				1A101C9F1C1659E600CE741D /* MainContentViewController.m in Sources */,
 				1A3236C11C162A690039550B /* ViewController.m in Sources */,
