@@ -39,6 +39,10 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
+                    <connections>
+                        <outlet property="searchBar" destination="PnE-zQ-Smq" id="i6J-Qy-tFX"/>
+                        <outlet property="tableView" destination="PnE-zQ-Smq" id="4bK-cp-uaG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
