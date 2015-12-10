@@ -27,6 +27,7 @@
 		1AF5D3641C191EA50066D217 /* SOSearchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3631C191EA50066D217 /* SOSearchSettings.m */; };
 		1AF5D3671C1921EC0066D217 /* JSONAPIRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3661C1921EC0066D217 /* JSONAPIRequestService.m */; };
 		1AF5D36A1C1924480066D217 /* ImageFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D3691C1924480066D217 /* ImageFetcherService.m */; };
+		1AF5D36F1C1925EA0066D217 /* burgerxib.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5D36E1C1925EA0066D217 /* burgerxib.jpeg */; };
 		66EE356319ED2C45A751285E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01610896A4743B73A7FCA06C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		1AF5D3661C1921EC0066D217 /* JSONAPIRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPIRequestService.m; sourceTree = "<group>"; };
 		1AF5D3681C1924480066D217 /* ImageFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFetcherService.h; sourceTree = "<group>"; };
 		1AF5D3691C1924480066D217 /* ImageFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFetcherService.m; sourceTree = "<group>"; };
+		1AF5D36E1C1925EA0066D217 /* burgerxib.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burgerxib.jpeg; sourceTree = "<group>"; };
 		34064BF6DEC8A56C13C5AA80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		51D13D49FBD332A7C728E919 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +124,7 @@
 		1A3236AD1C162A690039550B = {
 			isa = PBXGroup;
 			children = (
+				1AF5D36B1C1925290066D217 /* SO API */,
 				1A3236B81C162A690039550B /* StackOverflowClient */,
 				1A3236D21C162A690039550B /* StackOverflowClientTests */,
 				1A3236DD1C162A690039550B /* StackOverflowClientUITests */,
@@ -146,8 +149,6 @@
 			children = (
 				1AF5D3551C1918DF0066D217 /* Model */,
 				1AF5D3541C1916AD0066D217 /* View */,
-				1A3236BC1C162A690039550B /* AppDelegate.h */,
-				1A3236BD1C162A690039550B /* AppDelegate.m */,
 				1A3236C21C162A690039550B /* Main.storyboard */,
 				1AD3EAE41C17930D00B5186E /* Error.h */,
 				1AD3EAE51C17934A00B5186E /* Error.m */,
@@ -162,6 +163,9 @@
 		1A3236B91C162A690039550B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A3236BC1C162A690039550B /* AppDelegate.h */,
+				1A3236BD1C162A690039550B /* AppDelegate.m */,
+				1AF5D36E1C1925EA0066D217 /* burgerxib.jpeg */,
 				1A3236BA1C162A690039550B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +250,29 @@
 				1AF5D3691C1924480066D217 /* ImageFetcherService.m */,
 			);
 			name = RequestServices;
+			sourceTree = "<group>";
+		};
+		1AF5D36B1C1925290066D217 /* SO API */ = {
+			isa = PBXGroup;
+			children = (
+				1AF5D36D1C19253E0066D217 /* JSON Parsers */,
+				1AF5D36C1C1925310066D217 /* Web Request */,
+			);
+			name = "SO API";
+			sourceTree = "<group>";
+		};
+		1AF5D36C1C1925310066D217 /* Web Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Web Request";
+			sourceTree = "<group>";
+		};
+		1AF5D36D1C19253E0066D217 /* JSON Parsers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "JSON Parsers";
 			sourceTree = "<group>";
 		};
 		8C4E5D18D1EC72E69B2C0A17 /* Pods */ = {
@@ -371,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF5D36F1C1925EA0066D217 /* burgerxib.jpeg in Resources */,
 				1A3236C91C162A690039550B /* LaunchScreen.storyboard in Resources */,
 				1A3236C61C162A690039550B /* Assets.xcassets in Resources */,
 				1A3236C41C162A690039550B /* Main.storyboard in Resources */,
