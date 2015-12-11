@@ -9,7 +9,14 @@
 #import "SearchResultTableViewCell.h"
 #import "ImageFetcherService.h"
 
+@interface SearchResultTableViewCell ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+
+@end
 
 
 @implementation SearchResultTableViewCell

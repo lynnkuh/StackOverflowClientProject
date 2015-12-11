@@ -13,8 +13,7 @@
 #import "Question.h"
 #import "SearchResultTableViewCell.h"
 
-@interface MainContentViewController ()
-
+@interface MainContentViewController () <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UITableView *searchBar;
 

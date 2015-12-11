@@ -11,7 +11,7 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="88" id="KGk-i7-Jjw" customClass="SearchResultTableViewCell">
             <rect key="frame" x="0.0" y="0.0" width="341" height="88"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="SearchResultCell" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="341" height="87.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -52,6 +52,12 @@
                 </constraints>
             </tableViewCellContentView>
             <animations/>
+            <connections>
+                <outlet property="imageView" destination="lhg-gk-oHH" id="tr1-Cq-TQr"/>
+                <outlet property="textLabel" destination="9U8-KN-tgu" id="Wh1-JP-ceP"/>
+                <outlet property="titleLabel" destination="9U8-KN-tgu" id="Htf-se-Ab4"/>
+                <outlet property="userNameLabel" destination="rNz-ki-q8q" id="78G-xo-jJY"/>
+            </connections>
             <point key="canvasLocation" x="335.5" y="439"/>
         </tableViewCell>
     </objects>
