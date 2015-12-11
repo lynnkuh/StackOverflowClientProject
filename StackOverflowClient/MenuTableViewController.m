@@ -25,7 +25,7 @@
     // Do any additional setup after loading the view.
     
     [super viewDidLoad];
-    
+/*
     NSError *stackOverflowError = [NSError errorWithDomain:kStackOverFlowErrorDomain code:StackOverFlowTooManyAttempts userInfo:nil];
     
     NSError *anotherError = [NSError errorWithDomain:kStackOverFlowErrorDomain code:StackOverFlowConnectionDown userInfo:nil];
@@ -48,6 +48,7 @@
     NSLog(@" ");
     
     NSLog(@"%@", NSPOSIXErrorDomain);
+*/
 }
 
 

@@ -34,7 +34,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
+    [self setupMainViewController];}
 
 -(void) setupMainViewController {
     [self.tableView setDelegate:self];
@@ -84,7 +84,7 @@
     
     cell.question = [self.Questions objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = @"hello world";
+
     return cell;
 }
 
@@ -93,7 +93,7 @@
 }
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
-    [self fetchResultsForSearchTearm: searchBar.text];
+    [self fetchResultsForSearchTearm: self.searchBar.text];
 }
 
 @end
