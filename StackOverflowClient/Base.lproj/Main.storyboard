@@ -3,38 +3,50 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main Content View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="u1w-iL-ivB">
             <objects>
-                <viewController storyboardIdentifier="MainContentVC" id="BYZ-38-t0r" customClass="MainContentViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="RIa-6u-WZe">
+                <viewController storyboardIdentifier="MainContentVC" id="Sqk-wR-tSg" customClass="MainContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vhr-By-Zfn"/>
+                        <viewControllerLayoutGuide type="bottom" id="pop-qX-Cdq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TW1-zh-6cq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AVE-Xe-FNq">
+                                <rect key="frame" x="-0.5" y="70" width="600" height="530"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <searchBar key="tableFooterView" contentMode="redraw" id="4m1-jE-tGQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <animations/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
+                            </tableView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="PnE-zQ-Smq">
-                            <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <animations/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <searchBar key="tableFooterView" contentMode="redraw" id="REF-kf-aTU">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                        </tableView>
-                    </tableView>
+                        <constraints>
+                            <constraint firstItem="AVE-Xe-FNq" firstAttribute="leading" secondItem="TW1-zh-6cq" secondAttribute="leadingMargin" constant="-20" id="RA5-dr-bCi"/>
+                            <constraint firstItem="pop-qX-Cdq" firstAttribute="top" secondItem="AVE-Xe-FNq" secondAttribute="bottom" id="V2D-YN-vCj"/>
+                            <constraint firstItem="AVE-Xe-FNq" firstAttribute="top" secondItem="Vhr-By-Zfn" secondAttribute="bottom" constant="50" id="fNq-cY-Ujk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AVE-Xe-FNq" secondAttribute="trailing" constant="-20" id="j7Q-iw-OH9"/>
+                        </constraints>
+                    </view>
                     <connections>
-                        <outlet property="searchBar" destination="PnE-zQ-Smq" id="i6J-Qy-tFX"/>
-                        <outlet property="tableView" destination="PnE-zQ-Smq" id="4bK-cp-uaG"/>
+                        <outlet property="searchBar" destination="4m1-jE-tGQ" id="I9m-z8-dEa"/>
+                        <outlet property="tableView" destination="AVE-Xe-FNq" id="EPq-bR-e1O"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hOr-Pn-yTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="1118"/>
+            <point key="canvasLocation" x="208" y="1157"/>
         </scene>
         <!--Menu Table View Controller-->
         <scene sceneID="fbj-SG-7yA">
@@ -137,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ac-wD-ik9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="222" y="482"/>
+            <point key="canvasLocation" x="222" y="466"/>
         </scene>
         <!--Auth Web View Controller-->
         <scene sceneID="Bmy-9G-ldx">

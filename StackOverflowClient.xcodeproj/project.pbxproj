@@ -20,6 +20,7 @@
 		1A3236C91C162A690039550B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3236C71C162A690039550B /* LaunchScreen.storyboard */; };
 		1A3236D41C162A690039550B /* StackOverflowClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236D31C162A690039550B /* StackOverflowClientTests.m */; };
 		1A3236DF1C162A690039550B /* StackOverflowClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */; };
+		1AC5C7F31C1A70540016DE83 /* burger2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC5C7F21C1A70540016DE83 /* burger2.jpeg */; };
 		1ACB4E861C1A2398009DB4FA /* SOSearchJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E851C1A2398009DB4FA /* SOSearchJSONParser.m */; };
 		1ACB4E891C1A253D009DB4FA /* SOSearchAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E881C1A253D009DB4FA /* SOSearchAPIService.m */; };
 		1ACB4E8D1C1A30E8009DB4FA /* SearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4E8B1C1A30E8009DB4FA /* SearchResultTableViewCell.m */; };
@@ -80,6 +81,7 @@
 		1A3236DA1C162A690039550B /* StackOverflowClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3236DE1C162A690039550B /* StackOverflowClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflowClientUITests.m; sourceTree = "<group>"; };
 		1A3236E01C162A690039550B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC5C7F21C1A70540016DE83 /* burger2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burger2.jpeg; sourceTree = "<group>"; };
 		1ACB4E801C1A2013009DB4FA /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1ACB4E841C1A2398009DB4FA /* SOSearchJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSearchJSONParser.h; sourceTree = "<group>"; };
 		1ACB4E851C1A2398009DB4FA /* SOSearchJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSearchJSONParser.m; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				1A3236BC1C162A690039550B /* AppDelegate.h */,
 				1ACB4E801C1A2013009DB4FA /* Constants.h */,
 				1A3236BD1C162A690039550B /* AppDelegate.m */,
+				1AC5C7F21C1A70540016DE83 /* burger2.jpeg */,
 				1AF5D36E1C1925EA0066D217 /* burgerxib.jpeg */,
 				1A3236BA1C162A690039550B /* main.m */,
 			);
@@ -285,13 +288,13 @@
 			isa = PBXGroup;
 			children = (
 				1A101C971C1658E400CE741D /* MenuTableViewController.h */,
+				1A101C981C1658E400CE741D /* MenuTableViewController.m */,
 				1A101CA21C1668EB00CE741D /* MenuContainerViewController.h */,
+				1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */,
 				1A101C941C16516400CE741D /* MyQuestionsViewController.h */,
 				1A101C951C16516400CE741D /* MyQuestionsViewController.m */,
 				1A3236BF1C162A690039550B /* ViewController.h */,
 				1A3236C01C162A690039550B /* ViewController.m */,
-				1A101CA31C1668EB00CE741D /* MenuContainerViewController.m */,
-				1A101C981C1658E400CE741D /* MenuTableViewController.m */,
 				1A101C9A1C1659B800CE741D /* OAuthWebViewController.h */,
 				1A101C9B1C1659B800CE741D /* OAuthWebViewController.m */,
 				1A101C9D1C1659E600CE741D /* MainContentViewController.h */,
@@ -431,6 +434,7 @@
 				1A3236C91C162A690039550B /* LaunchScreen.storyboard in Resources */,
 				1A3236C61C162A690039550B /* Assets.xcassets in Resources */,
 				1A3236C41C162A690039550B /* Main.storyboard in Resources */,
+				1AC5C7F31C1A70540016DE83 /* burger2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

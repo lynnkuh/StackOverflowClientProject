@@ -14,8 +14,10 @@
 #import "SearchResultTableViewCell.h"
 
 @interface MainContentViewController () <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (weak, nonatomic) IBOutlet UITableView *searchBar;
+
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 
 
@@ -81,6 +83,8 @@
     SearchResultTableViewCell *cell = (SearchResultTableViewCell*) [self.tableView dequeueReusableCellWithIdentifier:@"SearchResultCell"];
     
     cell.question = [self.Questions objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = @"hello world";
     return cell;
 }
 

@@ -52,6 +52,7 @@
                 </constraints>
             </tableViewCellContentView>
             <animations/>
+            <accessibility key="accessibilityConfiguration" identifier="SearchResultCell"/>
             <connections>
                 <outlet property="imageView" destination="lhg-gk-oHH" id="tr1-Cq-TQr"/>
                 <outlet property="textLabel" destination="9U8-KN-tgu" id="Wh1-JP-ceP"/>
