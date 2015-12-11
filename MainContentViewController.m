@@ -89,7 +89,7 @@
 }
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
-    [self fetchResultsForSearchTearm: self.searchBar.text];
+    [self fetchResultsForSearchTearm: searchBar.text];
 }
 
 @end

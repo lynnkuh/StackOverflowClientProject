@@ -15,7 +15,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="PnE-zQ-Smq">
-                            <rect key="frame" x="0.0" y="72" width="600" height="601"/>
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <animations/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -26,18 +26,6 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </tableView>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="caR-tj-Fax" customClass="SearchResultTableViewCell">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="caR-tj-Fax" id="y5V-gf-lb9">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
-                                </tableViewCellContentView>
-                                <animations/>
-                            </tableViewCell>
-                        </prototypes>
                     </tableView>
                     <connections>
                         <outlet property="searchBar" destination="PnE-zQ-Smq" id="i6J-Qy-tFX"/>
@@ -46,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="206" y="1159"/>
+            <point key="canvasLocation" x="48" y="1118"/>
         </scene>
         <!--Menu Table View Controller-->
         <scene sceneID="fbj-SG-7yA">
@@ -130,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SiY-YR-EMj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="795" y="1194"/>
+            <point key="canvasLocation" x="907" y="1118"/>
         </scene>
         <!--Menu Container View Controller-->
         <scene sceneID="2b4-RI-0Ay">
