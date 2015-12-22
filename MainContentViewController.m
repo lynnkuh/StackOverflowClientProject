@@ -17,6 +17,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
+
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 
@@ -93,7 +94,11 @@
 }
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
+    self.searchBar.text =
+                           [self.searchBar.text stringByAppendingString:@" "];
     [self fetchResultsForSearchTearm: self.searchBar.text];
+    [self.tableView reloadData];
+    [searchBar resignFirstResponder];
 }
 
 @end
